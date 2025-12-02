@@ -1,0 +1,6 @@
+
+principal= float(input("principal"))
+rate= float(input("rate"))
+time=float(input("time"))
+amount=principal* (1+(rate/100) ** time)
+print("total value after ",time, "is" , amount )
