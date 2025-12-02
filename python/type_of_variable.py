@@ -1,10 +1,10 @@
 print("hello")
 a=20
-print(a)
+print(type (a))
 b=20.02
-print(b)
+print(type(b))
 name="Akshat shrivastava"
-print(name)
+print(type(name))
 
 del name
 del a
