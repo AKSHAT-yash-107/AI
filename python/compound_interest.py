@@ -1,4 +1,3 @@
-
 principal= float(input("principal"))
 rate= float(input("rate"))
 time=float(input("time"))
