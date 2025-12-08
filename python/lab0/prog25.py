@@ -3,4 +3,4 @@ def sq(n):
         return 1
     return n*n + sq(n-1)
 
-print(sq(4))
+print(sq(9))

@@ -1,0 +1,6 @@
+name = input("enter your name ")
+print(name)
+branch=input("branch ")
+print(branch)
+roll=input("roll ")
+print(roll)

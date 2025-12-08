@@ -8,4 +8,4 @@ def stats(a, b, c, d, e):
     sd = math.sqrt(variance)
     return s, avg, sd
 
-print(stats(10, 60,80, 40, 50))
+print(stats(10, 60,70, 40, 50))
