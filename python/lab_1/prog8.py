@@ -8,4 +8,4 @@ def fun(n):
 x = int(input("Enter number: "))
 s = fun(x)
 
-print("Perfect" if s == x else "Not Perfect")
+print("Perfect" if fun(x)== x else "Not Perfect")
