@@ -118,20 +118,3 @@ if __name__ == "__main__":
     heuristics = ["H1: Misplaced Tiles", "H2: Manhattan Distance"]
     nodes = [nodes_h1, nodes_h2]
     depths = [depth_h1, depth_h2]
-
-    plt.figure(figsize=(10,4))
-
-    plt.subplot(1,2,1)
-    plt.bar(heuristics, nodes)
-    plt.ylabel("Nodes Explored")
-    plt.title("A* Nodes Explored")
-    plt.grid(True)
-
-    plt.subplot(1,2,2)
-    plt.bar(heuristics, depths)
-    plt.ylabel("Solution Depth")
-    plt.title("Solution Depth Comparison")
-    plt.grid(True)
-
-    plt.tight_layout()
-    plt.show()
